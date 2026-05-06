@@ -1,0 +1,65 @@
+:root {
+    --font-main: 'Inter', system-ui, sans-serif;
+    --color-bg: #322d2d;
+    --color-text: #222;
+    --color-text-white: #f8f4f4;
+    --color-primary: #f1f575;
+    --color-border: #e5e5e5;
+    --radius: 10px;
+    --transition: 0.25s ease;
+
+    --color-primary-hover: #e2e594;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+html, body, h1, h2, h3, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    font: inherit;
+}
+
+img, video {
+    display: block;
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-text-white);
+    transition: var(--transition);
+}
+
+input, textarea {
+    font: inherit;
+    border: none;
+    outline: none;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-main);
+  font-size: 16px;
+  background: var(--color-bg);
+  color: var(--color-text-white);
+  line-height: 1.6;
+}
+
+h2 {
+    color: var(--color-primary);
+}
+
