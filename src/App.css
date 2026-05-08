@@ -115,3 +115,54 @@
     box-shadow: 0 0 0 2px var(--color-primary);
     border-color: var(--color-primary);
 }
+
+.post_btn{
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+   padding: 0.5rem 1rem;
+   color: var(--color-primary);
+   max-width: 150px;
+}
+
+.modal_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal_content {
+    width: 90%;
+    max-width: 600px;
+    background: var(--color-bg-white);
+    border-radius: var(--radius);
+    padding: 2rem;
+    position: relative;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    color: var(--color-text);
+}
+
+
+
+.modal_close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: rgb(113, 28, 28);
+    color: var(--color-text-white);
+    border: none;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.modal_title, .modal_description {
+    color: var(--color-text);
+}
