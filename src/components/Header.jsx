@@ -1,3 +1,5 @@
+import Button from "./ui/button";
+
 export default function Header() {
   return (
     <>
@@ -20,7 +22,7 @@ export default function Header() {
               </li>
             </ul>
           </nav>
-          <button className="button">Dark Mode</button>
+          <Button className="button">Dark Mode</Button>
         </div>
       </header>
     </>
