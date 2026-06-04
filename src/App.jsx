@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className="app">
+      <div className="app" >
         <Header />
         <main className="main">
           <PostsCards />

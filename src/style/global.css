@@ -1,17 +1,28 @@
 :root {
     --font-main: 'Inter', system-ui, sans-serif;
-    --color-bg: #322d2d;
-    --color-bg-white: #f8f4f4;
-    --color-text: #222;
-    --color-text-white: #f8f4f4;
-    --color-primary: #f1f575;
-    --color-border: #e5e5e5;
+    
     --radius: 10px;
     --transition: 0.25s ease;
-
-    --color-primary-hover: #e2e594;
 }
 
+
+.theme-light {
+    --color-bg: #f0f0f0;
+    --color-bg-white: #f8f4f4;
+    --color-text: #222;
+    --color-primary: #f2a75b;
+    --color-primary-hover: #f2a75b;
+    --color-border: #e5e5e5;
+}
+
+.theme-dark {
+    --color-bg: #322d2d;
+    --color-bg-white: #2c2c2c;
+    --color-text: #f8f4f4;
+    --color-primary: #f1f575;
+    --color-primary-hover: #d3d757;
+    --color-border: #444444;
+}
 
 * {
     box-sizing: border-box;

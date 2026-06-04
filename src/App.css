@@ -40,6 +40,10 @@
     gap: 1rem;
 }
 
+.list-item {
+  color: var(--color-text);
+}
+
 .main {
     min-height: 100dvh;
     padding: 2rem;
@@ -57,7 +61,7 @@
 }
 
 .button {
-    background: var(--color-primary);
+    background: var(--color-bg);
     color:var(--color-text);
     font-weight: 600;
     border: none;
@@ -65,7 +69,10 @@
     border-radius: var(--radius);
     cursor: pointer;
     font-size: 1rem;
+    transition: background var(--transition), color var(--transition);
 }
+
+
 
 .button:hover {
     background: var(--color-primary-hover);
@@ -87,6 +94,7 @@
    padding: 1.5rem;
    transition: transform var(--transition), box-shadow var(--transition);
    row-gap: 0.5rem;
+   color: var(--color-text);
 }
 
 .post-card:hover {
@@ -166,3 +174,5 @@
 .modal_title, .modal_description {
     color: var(--color-text);
 }
+
+
